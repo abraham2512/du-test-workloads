@@ -17,6 +17,7 @@ jobs:
     waitWhenFinished: true
     maxWaitTimeout: 5m
     errorOnVerify: true
+    jobPause: 5m
     objects:
 
     # Template of Gu Pods with fedora-stress-ng
