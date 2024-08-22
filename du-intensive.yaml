@@ -5,6 +5,10 @@ metricsEndpoints:
       type: local
       metricsDirectory: collected-metrics
 
+global:
+  measurements:
+    - name: workloadCNI
+
 jobs:
   - name: du-workload
     jobIterations: 1
