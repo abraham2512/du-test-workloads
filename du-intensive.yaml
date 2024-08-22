@@ -1,4 +1,10 @@
 ---
+metricsEndpoints:
+  - metrics: [metrics-report.yml]
+    indexer:
+      type: local
+      metricsDirectory: collected-metrics
+
 jobs:
   - name: du-workload
     jobIterations: 1
