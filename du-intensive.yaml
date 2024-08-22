@@ -1,6 +1,6 @@
 ---
 metricsEndpoints:
-  - metrics: [metrics-report.yml]
+  - metrics: [metrics-report.yaml]
     indexer:
       type: local
       metricsDirectory: collected-metrics
